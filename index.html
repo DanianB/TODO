@@ -2,29 +2,25 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>ToDos</title>
+    <title>ToDo</title>
 
-
+    <!-- don't use this in production: -->
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
   </head>
   <body>
-    <h1>ToDos</h1>
 
-    <!-- We will put our React component inside this div. -->
+    <h1>ToDo</h1>
+
+    <!-- we will put our teact component inside this div -->
     <div id="root"></div>
 
-    <!-- Load React. -->
-    <!-- Note: when deploying, replace "development.js" with "production.min.js". -->
-    <script
-      src="https://unpkg.com/react@17/umd/react.development.js"
-      crossorigin
-    ></script>
-    <script
-      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
-      crossorigin
-    ></script>
+    <!-- load react -->
+    <script src="https://unpkg.com/react/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom/umd/react-dom.development.js" crossorigin></script>
 
-    <!-- Load our React component. -->
+    <!-- load our react component. -->
     <script src="index.js" defer type="text/babel"></script>
+
+
   </body>
 </html>
